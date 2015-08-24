@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+*{
+    margin: 0;
+    padding:0;
+}
+.container1{
+    width: 800px;
+    height: 600px;
+    background-image: url("1.jpg");
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.panel-body{
+    height: 200px;
+}
+.head{
+    width:auto;
+    height:40px;
+    margin-left: 0px;
+    padding-right: 0px;
+    background-color: #31b0d5;
+}
+.head a{
+    float: right;
+    height: 40px;
+}
+.body{
+    background-color: #ffffff;
+}
+.menu{
+    background-color:#ffffff ;
+
+}
+a{
+    color: #444444;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    text-decoration: none;
+}
+
+.body .menu{
+    float: left;
+}
+.body .kehuguanli{
+    float: right;
+}
+.fenpage{
+	float:right;
+}

@@ -18,13 +18,12 @@
 </script>
 </head>
 <body>
-<div class="container1">
+
     <div class="head">
         <h1>黄子良</h1>
     </div>
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-info">
+
+            <div class="panel panel-info loginform">
                 <div class="panel-heading">
                     销售管理系统
                 </div>
@@ -50,9 +49,5 @@
                 </form>
                 </div>
             </div>
-        </div>
-    </div>
-
-</div>
 </body>
 </html>

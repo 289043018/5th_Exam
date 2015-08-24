@@ -37,7 +37,9 @@
 				<div class="panel panel-info">
 					<div class="panel-heading">
 						<div>客户列表</div>
-							<a href="#" class="btn btn-primary col-md-offset-4">新建</a>
+						<button type="button" class="btn btn-primary col-md-offset-4" data-toggle="modal" data-target="#exampleModal"data-whatever="@mdo">新建</button>
+     
+
 					</div>
 					<div class="panel-body">
 						<div class="table-responsive">
@@ -151,5 +153,67 @@
 			</div>
    </div>
 </div>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModal"
+             aria-hidden="true">
+         <div class="modal-dialog">
+             <div class="modal-content">
+                 <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                     </button>
+                     <h4 class="modal-title" id="exampleModalLable">New Massage</h4>
+                 </div>
+                 <div class="modal-body">
+                <form class="form-horizontal" role="form" action="#" Method="post" name="loginForm">
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Frist Name：</label>
+                        <div class="col-md-4">
+                            <input type="text" name="uname" class="form-control" placeholder="Frist Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Last Name：</label>
+                        <div class="col-md-4">
+                            <input type="password" name="pword" class="form-control" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Email：</label>
+                        <div class="col-md-4">
+                            <input type="password" name="pword" class="form-control" placeholder="Email">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Address：</label>
+                        <div class="dropdown">
+                            <button class="btn btn-default" id="dlabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Address
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                                <li><a class="active">1</a></li>
+                                <li><a>2</a></li>
+                                <li><a>3</a></li>
+                                <li><a>4</a></li>
+                                <li><a>5</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-offset-4 col-md-4">
+                            <button type="submit" class="btn btn-default">新建</button>
+                            <button type="submit" class="btn btn-default">取消</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+             </div>
+         </div>
+     </div>
+<script src="jquery-2.1.4.min.js"></script>
+<script src="bootstrap.min.js"></script>
 </body>
 </html>

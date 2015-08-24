@@ -37,7 +37,7 @@
 				<div class="panel panel-info">
 					<div class="panel-heading">
 						<div>客户列表</div>
-
+							<a href="#" class="btn btn-primary col-md-offset-4">新建</a>
 					</div>
 					<div class="panel-body">
 						<div class="table-responsive">

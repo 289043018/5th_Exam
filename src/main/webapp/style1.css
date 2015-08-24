@@ -60,3 +60,6 @@ li{
 td a{
 	color:blue;
 }
+.panel-heading div{
+	display:inline;
+}

@@ -14,7 +14,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>首页</title>
-<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <link rel="stylesheet" href="style1.css">
 </head>
 <body>
@@ -25,8 +25,8 @@
    <div class="body">
        <div class="menu">
            <ul id="mytab" class="nav nav-tabs nav-stacked" role="tablist">
-               <li role="presentation" class=""><a href="#">Customer管理</a> </li>
-               <li role="presentation"><a href="#">Film设置</a> </li>
+               <li role="presentation" class=""><a href="#">Customer管理<span class="glyphicon glyphicon-chevron-right"></span></a> </li>
+               <li role="presentation"><a href="#">Film设置<span class="glyphicon glyphicon-chevron-right"></span></a> </li>
            </ul>
        </div>
        <div class="kehuguanli">

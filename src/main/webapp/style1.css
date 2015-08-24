@@ -31,8 +31,9 @@ h3{
     background-color:#ffffff ;
 	width:190px;
 }
-a{
+.menu a{
     color: #444444;
+    width:190px;
 }
 ul{
     list-style-type: none;
@@ -42,9 +43,14 @@ li{
     text-decoration: none;
 }
 
-.body .menu{
+.body .menu {
     float: left;
+
 }
+.body li{
+	    border-bottom:1px solid #000000;
+}
+
 .body .kehuguanli{
     float: right;
 }
@@ -59,7 +65,16 @@ li{
 }
 td a{
 	color:blue;
+	width:auto;
+	padding-right:0px;
 }
 .panel-heading div{
 	display:inline;
+}
+.panel-body{
+	background-color: #DDDDDD;
+	
+}
+span{
+    float: right;
 }
